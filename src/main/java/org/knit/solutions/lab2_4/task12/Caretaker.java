@@ -1,0 +1,25 @@
+package org.knit.solutions.lab2_4.task12;
+
+import java.util.Stack;
+
+public class Caretaker {
+    private final Stack<Memento> history = new Stack<>();
+
+    public void saveState(TextEditor editor) {
+        history.push(editor.saveState());
+    }
+
+    public void undo(TextEditor editor) {
+        if (!history.isEmpty()) {
+            Memento memento = history.pop();
+            editor.restoreState(memento);
+        } else {
+            System.out.println("Нет сохранённых состояний для отката.");
+        }
+    }
+
+    public boolean canUndo() {
+        return !history.isEmpty();
+    }
+}
+
