@@ -8,9 +8,10 @@
 //        ✔ Поток "Поезд" останавливает автомобили (wait()).
 //        ✔ Поток "Поезд" сообщает о завершении (notifyAll()).
 //        ✔ Машины ждут, если поезд едет, и продолжают движение после notifyAll().
-package org.knit.lab2_2.task6;
+package org.knit.solutions.lab2_2.task6;
 
-import org.knit.tasks_description;
+import org.knit.solutions.tasks_description;
+
 
 @tasks_description(number = 6, name = "Железнодорожный переезд")
 public class Main {

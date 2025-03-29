@@ -1,4 +1,4 @@
-package org.knit.lab2_2.task6;
+package org.knit.solutions.lab2_2.task6;
 
 public class Train extends Thread {
     private final RailwayCrossing crossing;

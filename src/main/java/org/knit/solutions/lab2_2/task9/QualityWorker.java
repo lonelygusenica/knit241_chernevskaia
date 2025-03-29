@@ -1,4 +1,4 @@
-package org.knit.lab2_2.task9;
+package org.knit.solutions.lab2_2.task9;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;

@@ -1,4 +1,4 @@
-package org.knit.lab2_2.task8;
+package org.knit.solutions.lab2_2.task8;
 
 public class Car extends Thread {
     private final Object lock;

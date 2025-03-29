@@ -1,4 +1,4 @@
-package org.knit.lab2_2.task7;
+package org.knit.solutions.lab2_2.task7;
 
 public class Warehouse {
     private int itemCount = 0;

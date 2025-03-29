@@ -8,9 +8,10 @@
 //        🔹 Что нужно реализовать?
 //        ✔ Поток "Светофор" изменяет цвет и отправляет notifyAll().
 //        ✔ Потоки "Машина" ждут wait(), если красный свет.
-package org.knit.lab2_2.task8;
+package org.knit.solutions.lab2_2.task8;
 
-import org.knit.tasks_description;
+import org.knit.solutions.tasks_description;
+
 
 @tasks_description(number = 8, name = "Перекресток: светофор и машины")
 public class Main {

@@ -8,9 +8,9 @@
 //        ✔ Поток "Машина" ждет, если все колонки заняты.
 //        ✔ Поток "Машина" заправляется, затем освобождает колонку.
 //
-package org.knit.lab2_2.task4;
+package org.knit.solutions.lab2_2.task4;
 
-import org.knit.tasks_description;
+import org.knit.solutions.tasks_description;
 
 @tasks_description(number = 4, name = "Автозаправочная станция")
 public class Main {

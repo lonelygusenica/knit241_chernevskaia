@@ -6,11 +6,12 @@
 //        Сборщик – собирает из заготовки готовую деталь.
 //        Оператор контроля качества – проверяет деталь и отправляет на склад.
 //        Каждый рабочий – отдельный поток, и они должны работать последовательно, используя общую очередь для передачи деталей.
-package org.knit.lab2_2.task9;
+package org.knit.solutions.lab2_2.task9;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import org.knit.tasks_description;
+import org.knit.solutions.tasks_description;
+
 
 @tasks_description(number = 9, name = "Конвейер сборки деталей")
 public class Main {

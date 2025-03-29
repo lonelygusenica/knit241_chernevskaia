@@ -1,4 +1,4 @@
-package org.knit.lab2_2.task5;
+package org.knit.solutions.lab2_2.task5;
 
 public class Waiter extends Thread {
     private final Restaurant restaurant;

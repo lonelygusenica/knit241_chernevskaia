@@ -1,4 +1,4 @@
-package org.knit.lab2_2.task4;
+package org.knit.solutions.lab2_2.task4;
 
 public class GasStation {
     private int availableColumns = 2;
