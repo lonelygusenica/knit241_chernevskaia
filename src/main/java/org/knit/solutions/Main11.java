@@ -1,5 +1,6 @@
 package org.knit.solutions;
 
+import org.knit.TaskDescription;
 import org.knit.solutions.lab2_4.task11.EmailNotifier;
 import org.knit.solutions.lab2_4.task11.MobileApp;
 import org.knit.solutions.lab2_4.task11.Stock;
@@ -19,7 +20,7 @@ import org.knit.solutions.lab2_4.task11.Stock;
 Дополнительно: Добавьте возможность подписки на акции нескольких компаний.
  */
 
-@tasks_description(number = 11, name = "Паттерн Observer (Наблюдатель)")
+@TaskDescription(taskNumber = 11, taskDescription = "Паттерн Observer (Наблюдатель)")
 public class Main11 {
     public static void main(String[] args) {
         Stock teslaStock = new Stock("Tesla", 700);

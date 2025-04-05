@@ -1,5 +1,6 @@
 package org.knit.solutions;
 
+import org.knit.TaskDescription;
 import org.knit.solutions.lab2_4.task12.Caretaker;
 import org.knit.solutions.lab2_4.task12.TextEditor;
 
@@ -21,7 +22,7 @@ import org.knit.solutions.lab2_4.task12.TextEditor;
 Дополнительно: Реализуйте возможность нескольких уровней отката.
  */
 
-@tasks_description(number = 12, name = "Паттерн Memento (Хранитель)")
+@TaskDescription(taskNumber = 12, taskDescription = "Паттерн Memento (Хранитель)")
 public class Main12 {
     public static void main(String[] args) {
         TextEditor editor = new TextEditor();

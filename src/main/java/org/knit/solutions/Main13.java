@@ -1,5 +1,6 @@
 package org.knit.solutions;
 
+import org.knit.TaskDescription;
 import org.knit.solutions.lab2_4.task13.*;
 
 /*
@@ -22,7 +23,7 @@ TVOffCommand – выключает телевизор.
 Дополнительно: Реализуйте поддержку макрокоманд (например, кнопка "Спокойной ночи" выключает все приборы разом).
  */
 
-@tasks_description(number = 13, name = "Паттерн Command (Команда)")
+@TaskDescription(taskNumber = 13, taskDescription = "Паттерн Command (Команда)")
 public class Main13 {
     public static void main(String[] args) {
         Light livingRoomLight = new Light("гостиной");
