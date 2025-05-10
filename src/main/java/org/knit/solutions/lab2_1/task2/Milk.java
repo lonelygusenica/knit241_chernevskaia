@@ -1,0 +1,22 @@
+package org.knit.solutions.lab2_1.task2;
+
+public class Milk extends CoffeeDecorator {
+    public Milk(Coffee coffee) {
+        super(coffee);
+    }
+
+    @Override
+    public double getCost() {
+        return coffee.getCost() + 0.75;
+    }
+
+    @Override
+    public int getCalories() {
+        return coffee.getCalories() + 50;
+    }
+
+    @Override
+    public String getDescription() {
+        return coffee.getDescription() + ", молоко";
+    }
+}
